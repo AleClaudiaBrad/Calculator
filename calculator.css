@@ -1,0 +1,32 @@
+body{
+	margin:0;
+	padding:20;
+	background: linear-gradient(to right, #c31432, #240b36);
+}
+.calculator {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.button {
+	width: 102px;
+	height: 100px;
+	font-size: 25px;
+	font-family: 'Libre Baskerville', serif;
+	border-radius: 10px;
+	margin: -2 solid;
+	cursor: pointer;
+	background: rgba(255, 255, 255, .0);
+}
+.button:hover {
+	background-color: rgb(255, 255, 204, .4);
+	
+}  
+.textview {
+	width: 430px;
+	height: 90px;
+	font-family: 'Libre Baskerville', serif;
+	border-radius: 10px;
+	font-size: 30px;
+	background: rgba(255, 255, 255, .0);
+}
